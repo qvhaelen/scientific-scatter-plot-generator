@@ -13,7 +13,7 @@ from PyQt6.QtWidgets import (
 )
 
 # Import the updated scatter generator code
-from scatter_generator_v12a1 import ScatterGeneratorSettings, ScatterGenerator
+from core.py import ScatterGeneratorSettings, ScatterGenerator
 
 # Create a stream that redirects console output to a QTextEdit
 class OutputStream:
@@ -1109,4 +1109,5 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
+
     sys.exit(app.exec())
