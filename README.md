@@ -14,6 +14,6 @@ Once the environment is created, activate the environment using conda activate e
 
 One can call the GUI using the following command:
 
-python gui.py
+python scatter_plot_gui.py
 
 See the pdf file "technical-documentation.pdf" for a detailed description of the different functionalities of this tool.
