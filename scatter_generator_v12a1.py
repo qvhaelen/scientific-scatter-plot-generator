@@ -22,7 +22,7 @@ class ScatterGeneratorSettings:
         self.error_min = 2.0
         self.error_max = 4.0
         self.output_format = 'png'
-        self.output_dir = 'C:/Users/QuentinMSD/Documents/TEST-SCATTERACT/SCATTER_PLOT_V12A'
+        self.output_dir = ''
         self.mathematical_curve = False
         self.coordinate_tolerance = 1
         self.color_map = 'tab10'
@@ -44,7 +44,7 @@ class ScatterGeneratorSettings:
         self.label_positioning = True
         self.vintage_bw_image = True
         self.vintage_intensity = 0.7
-        self.texture_file = 'C:/Users/QuentinMSD/Documents/TEST-SCATTERACT/old_paper.png'
+        self.texture_file = ''
         self.add_error_bars = True
         self.customized_error_bars = ['Standard', 'customized']
         self.random_sized_points = ['Standard', 'random_size']
@@ -714,4 +714,5 @@ def main():
     generator.generate_all_plots()
 
 if __name__ == '__main__':
+
     main()
