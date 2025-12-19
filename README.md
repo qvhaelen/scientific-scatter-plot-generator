@@ -1,7 +1,7 @@
 # scientific-scatter-plot-generator
 Python code (includes GUI) to automatically generate sets of scatter plots with different properties
 
-The user should create a new virtual  environment with the following requirements:
+The user should create a new virtual  environment "env_name" with the following requirements:
 PyQt6=6.9.1
 matplotlib=3.7.0
 scipy=1.11.0
@@ -14,4 +14,4 @@ Once the environment is created, activate the environment using conda activate e
 
 One can call the GUI using the following command:
 
-python scatter_generator_v12h1.py
+python gui.py
